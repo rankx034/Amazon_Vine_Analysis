@@ -1,1 +1,2 @@
-# Amazon_Vine_Analysis
+# Amazon Watch Reviews
+For this project, I extracted data from reviews of various watches sold on Amazon and performed ETL on the dataset. First the data was loaded into a Spark dataframe using Google Colab. The project schema includes four tables that were to be added to PostgreSQL by using AWS RDS to connect to the Spark session. Creating the tables in PostgreSQL allows for parties conducting analysis down-stream to face fewer complications and have ease of access to the data they need. 
